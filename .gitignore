@@ -1,0 +1,7 @@
+#
+*build*
+*vscode*
+*.exe*
+*.obj*
+*vs_studio*
+*__pycache__*
