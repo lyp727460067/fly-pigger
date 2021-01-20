@@ -8,14 +8,18 @@ Welcome to fly-piggy's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-   
+
    slam.rst
-   uni_robot.rst
-   multi_slam.rst
+   robot.rst
+   pcl.rst
+   optimization
+
+
+
 
 Indices and tables
 ==================
 
-* :ref:`genindex`
+* :ref:`genindex` 
 * :ref:`modindex`
 * :ref:`search`
