@@ -19,7 +19,5 @@ Welcome to fly-piggy's documentation!
 
 Indices and tables
 ==================
-
 * :ref:`genindex` 
-* :ref:`modindex`
-* :ref:`search`
+
