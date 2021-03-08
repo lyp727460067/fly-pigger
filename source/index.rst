@@ -13,7 +13,7 @@ Welcome to fly-piggy's documentation!
    robot.rst
    pcl.rst
    optimization
-
+   papar.rst
 
 
 
