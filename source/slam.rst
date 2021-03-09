@@ -9,6 +9,7 @@ slam
    vins.rst
    dso.rst
    cartographer.rst
+   lio_sam.rst
    
  
 

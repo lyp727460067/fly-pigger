@@ -12,7 +12,8 @@ Welcome to fly-piggy's documentation!
    slam.rst
    robot.rst
    pcl.rst
-   optimization
+   optimization.rst
+   lio_sam.rst
    papar.rst
 
 
