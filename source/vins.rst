@@ -39,7 +39,7 @@ vins 中的边缘化的一点记录
     :nowrap:
 
     \begin{equation}
-    H\delta x  = -\mathbf{J}^\mathrm{T} \( \mathbf{J}^\mathrm{-T}b + \mathbf{J}\Delta x \)
+    H\delta x  = -\mathbf{J}^\mathrm{T} ( \mathbf{J}^\mathrm{-T}b + \mathbf{J}\Delta x )
     \end{equation}
 
 其中GN里面的err相当于
