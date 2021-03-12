@@ -51,16 +51,16 @@ vins 中的边缘化的一点记录
     \mathbf{J}^\mathrm{-T}b + \mathbf{J}\Delta x 
     \end{equation}
 
-* 这个方程可以用ceres 去优化了
+* 这个方程可以用ceres 去优化了  
 
 
 estunatir主要残差函数
 ------------------------
-ProjectionTwoFrameOneCamFactor   i时刻和J时刻观测到的路标
+* ProjectionTwoFrameOneCamFactor   i时刻和J时刻观测到的路标
 
-ProjectionTwoFrameTwoCamFactor 左相机I 和 右相机J 观察到的路标
+* ProjectionTwoFrameTwoCamFactor 左相机I 和 右相机J 观察到的路标
 
-ProjectionOneFrameTwoCamFactor 左右相机I时刻观察到路标
+* ProjectionOneFrameTwoCamFactor 左右相机I时刻观察到路标
 
 代码部分
 --------
