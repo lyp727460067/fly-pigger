@@ -13,7 +13,9 @@ vins 中的边缘化的一点记录
 
 * `这个的rst 的格式参考 <(https://self-contained.github.io/reStructuredText/index.html>`_
 
-主要流程大致是 主要求解  方程： 
+主要流程大致是:
+
+* 通过边缘化操作之后，最后求解的方程为
 
 .. math::
     :nowrap:
@@ -23,7 +25,33 @@ vins 中的边缘化的一点记录
     H\delta x  = b + H\Delta x
     \end{equation}
 
-通过舒尔补求出H 
+其中   
+
+.. math::
+
+    \begin{equation}
+    H = \mathbf{J}^\mathrm{T} \mathbf{J}
+    \end{equation}
+
+然后可化解为一个一般的优化方程
+
+.. math::
+    :nowrap:
+
+    \begin{equation}
+    H\delta x  = -\mathbf{J}^\mathrm{T} \{ \mathbf{J}^\mathrm{-T}b + \mathbf{J}\Delta x \}
+    \end{equation}
+
+其中GN里面的err相当于
+
+.. math::
+    :nowrap:
+
+    \begin{equation}
+    \mathbf{J}^\mathrm{-T}b + \mathbf{J}\Delta x 
+    \end{equation}
+
+* 这个方程可以用ceres 去优化了
 
 
 estunatir主要残差函数
