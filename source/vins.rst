@@ -29,7 +29,9 @@ vins 中的边缘化的一点记录
 estunatir主要残差函数
 ------------------------
 ProjectionTwoFrameOneCamFactor   i时刻和J时刻观测到的路标
+
 ProjectionTwoFrameTwoCamFactor 左相机I 和 右相机J 观察到的路标
+
 ProjectionOneFrameTwoCamFactor 左右相机I时刻观察到路标
 
 代码部分
