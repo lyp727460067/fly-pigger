@@ -9,13 +9,19 @@ Welcome to fly-piggy's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   slam.rst
-   robot.rst
+   slam_learning
    pcl.rst
-   optimization.rst
-   lio_sam.rst
    papar.rst
 
+
+
+一些其他链接
+==============================
+
+* `这个的rst 的格式参考 <(https://self-contained.github.io/reStructuredText/index.html>`_
+
+
+===============================
 
 
 Indices and tables
