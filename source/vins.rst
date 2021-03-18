@@ -1,16 +1,10 @@
-vins
-=====================
-
 vins 中的边缘化的一点记录
+=====================
 
 优化部分
 --------------------
 
 
-主要参考
-1:`VINS-MONO边缘化策略接 <https://blog.csdn.net/weixin_41394379/article/details/89975386>`_
-2:`OKVIS 笔记：边缘化实现 <https://fzheng.me/2018/03/23/okvis-marginalization/>`_
-3:`IMU算姿态:相关代码和论文  <https://x-io.co.uk/open-source-imu-and-ahrs-algorithms/> `_
 
 主要流程大致是:
 
@@ -70,4 +64,9 @@ estunatir主要残差函数
    :caption: A highlighted code-block example
    :name: 一个代码块示例
 
-  
+
+主要参考
+-------------------
+* 1:`VINS-MONO边缘化策略接 <https://blog.csdn.net/weixin_41394379/article/details/89975386>`_
+* 2:`OKVIS 笔记：边缘化实现 <https://fzheng.me/2018/03/23/okvis-marginalization/>`_
+* 3:`IMU算姿态:相关代码和论文 <https://x-io.co.uk/open-source-imu-and-ahrs-algorithms>`_
